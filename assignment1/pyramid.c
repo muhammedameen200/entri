@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 int main()
 {
@@ -9,10 +8,9 @@ int main()
        { 
            for(b = a; b < n; b++) 
             printf(" ");
-        for(b = 1; b <= (2 * a - 1); b++) 
+        for(b = 1; b <=(2 * a - 1); b++) 
             printf("*");
-        printf("\n");
-           
+        printf("\n");     
        }
     return 0;
 }
